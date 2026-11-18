@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="ha">0.16</dimen>
+    <dimen name="hb">0.2</dimen>
+    <dimen name="hc">0.4</dimen>
+    <dimen name="hd">0.12</dimen>
+    <dimen name="mg">0.24</dimen>
+    <dimen name="mh">0.4</dimen>
+    <dimen name="mi">0.4</dimen>
+    <dimen name="mj">0.24</dimen>
+    <dimen name="ml">0.12</dimen>
+    <dimen name="mm">0.2</dimen>
+    <dimen name="mn">0.2</dimen>
+    <dimen name="mo">0.12</dimen>
+</resources>

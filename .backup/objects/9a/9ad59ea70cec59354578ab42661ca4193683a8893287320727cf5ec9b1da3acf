@@ -1,0 +1,9 @@
+org.gradle.jvmargs=-Xmx512m -XX:+UseG1GC -XX:MaxGCPauseMillis=200 -Dfile.encoding=UTF-8
+org.gradle.daemon=false
+org.gradle.parallel=false
+org.gradle.workers.max=1
+android.useAndroidX=true
+android.nonTransitiveRClass=true
+android.nonFinalResIds=false
+android.buildToolsLocation=/root/Android/build-tools/35.0.0
+android.aapt2FromMavenOverride=

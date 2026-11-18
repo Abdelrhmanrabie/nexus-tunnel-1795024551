@@ -1,0 +1,6 @@
+org.hamotunnelplus.xyz.app-resValues-0 /data/user/0/com.ai.assistance.operit/files/workspace/tunnel app/app/build/generated/res/resValues/debug
+org.hamotunnelplus.xyz.app-packageDebugResources-1 /data/user/0/com.ai.assistance.operit/files/workspace/tunnel app/app/build/intermediates/incremental/debug/packageDebugResources/merged.dir
+org.hamotunnelplus.xyz.app-packageDebugResources-2 /data/user/0/com.ai.assistance.operit/files/workspace/tunnel app/app/build/intermediates/incremental/debug/packageDebugResources/stripped.dir
+org.hamotunnelplus.xyz.app-debug-3 /data/user/0/com.ai.assistance.operit/files/workspace/tunnel app/app/build/intermediates/merged_res/debug/mergeDebugResources
+org.hamotunnelplus.xyz.app-debug-4 /data/user/0/com.ai.assistance.operit/files/workspace/tunnel app/app/src/debug/res
+org.hamotunnelplus.xyz.app-main-5 /data/user/0/com.ai.assistance.operit/files/workspace/tunnel app/app/src/main/res

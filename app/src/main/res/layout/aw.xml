@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:padding="3mm"
+    style="@plurals/a3y">
+    <LinearLayout style="@plurals/a3z">
+        <ImageView
+            android:src="@drawable/lp"
+            style="@plurals/a42"/>
+        <LinearLayout
+            android:paddingLeft="16sp"
+            style="@plurals/a3y">
+            <TextView
+                android:text="@string/au"
+                style="@plurals/a4j"/>
+            <View style="@plurals/a49"/>
+            <LinearLayout
+                android:background="@drawable/nr"
+                style="@plurals/a40">
+                <TextView
+                    android:textStyle="bold"
+                    android:id="@attr/cy"
+                    style="@plurals/a44"/>
+                <TextView
+                    android:id="@attr/cx"
+                    style="@plurals/a4i"/>
+            </LinearLayout>
+            <TextView
+                android:textColor="#ffff8080"
+                android:id="@attr/cz"
+                android:paddingTop="16sp"
+                style="@plurals/a44"/>
+        </LinearLayout>
+    </LinearLayout>
+    <View style="@plurals/a49"/>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <Button
+            android:id="@attr/cv"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/as"
+            android:layout_weight="0.5"/>
+        <Button
+            android:id="@attr/cw"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/at"
+            android:layout_weight="0.5"/>
+    </LinearLayout>
+</LinearLayout>

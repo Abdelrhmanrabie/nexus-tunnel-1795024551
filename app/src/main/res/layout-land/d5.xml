@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@attr/qd"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <androidx.constraintlayout.widget.Guideline
+        android:orientation="horizontal"
+        android:id="@attr/m4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:qp="16dp"/>
+    <include
+        android:id="@attr/q1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        app:qi="@attr/q6"
+        app:r1="0"
+        app:ra="@attr/m4"
+        app:rc="2"
+        layout="@layout/cv"/>
+    <include
+        android:id="@attr/q6"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        app:qh="0"
+        app:r1="@attr/q1"
+        app:r5="@attr/q1"
+        app:r_="@attr/q1"
+        app:rc="2"
+        layout="@layout/cy"/>
+    <com.google.android.material.timepicker.ClockFaceView
+        android:id="@attr/q2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/bs"
+        app:r6="@attr/q1"
+        app:ra="0"/>
+</merge>

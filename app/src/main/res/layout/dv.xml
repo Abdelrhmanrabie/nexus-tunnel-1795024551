@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:gravity="start|bottom"
+    android:layout_gravity="start|top"
+    android:id="@attr/rq"
+    android:paddingBottom="@dimen/l8"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:m0="@dimen/lb"
+    app:s4="@dimen/kx"
+    style="?style/t5"/>

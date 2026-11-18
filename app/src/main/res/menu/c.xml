@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:icon="@drawable/fq"
+        android:enabled="true"
+        android:id="@attr/d5"
+        android:title="UPDATES"/>
+    <item
+        android:icon="@drawable/ht"
+        android:id="@attr/qu"
+        android:title="Logs"/>
+    <item
+        android:icon="@drawable/fv"
+        android:id="@attr/qx"
+        android:title="Join Us"/>
+    <item
+        android:icon="@drawable/gi"
+        android:enabled="true"
+        android:id="@attr/ch"
+        android:title="Exit"/>
+</menu>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+    <plurals name="a_res_0x7f100000">
+        <item quantity="one">One day left</item>
+        <item quantity="other">%d days left</item>
+    </plurals>
+    <plurals name="b_res_0x7f100001">
+        <item quantity="one">One hour left</item>
+        <item quantity="other">%d hours left</item>
+    </plurals>
+    <plurals name="c_res_0x7f100002">
+        <item quantity="one">One minute left</item>
+        <item quantity="other">%d minutes left</item>
+    </plurals>
+    <plurals name="d_res_0x7f100003">
+        <item quantity="one">One month left</item>
+        <item quantity="other">%d months left</item>
+    </plurals>
+    <plurals name="e_res_0x7f100004">
+        <item quantity="one">%d new notification</item>
+        <item quantity="other">%d new notifications</item>
+    </plurals>

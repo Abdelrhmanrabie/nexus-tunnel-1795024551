@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <CheckBox
+            android:id="@attr/pj"
+            android:visibility="visible"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="Lock"/>
+        <CheckBox
+            android:textSize="12sp"
+            android:id="@attr/jd"
+            android:visibility="visible"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Enable Pin Code"/>
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@attr/sk"
+            android:visibility="gone"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            style="@plurals/a38">
+            <com.google.android.material.textfield.TextInputEditText
+                android:textSize="14sp"
+                android:id="@attr/sj"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Network Pin Code"
+                android:inputType="number"/>
+        </com.google.android.material.textfield.TextInputLayout>
+        <CheckBox
+            android:textSize="12sp"
+            android:id="@attr/je"
+            android:visibility="visible"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Set expiration date"/>
+        <RadioGroup
+            android:orientation="vertical"
+            android:id="@attr/ks"
+            android:visibility="gone"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:checkedButton="@attr/km">
+            <RadioButton
+                android:textSize="12sp"
+                android:id="@attr/km"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1 Hour"/>
+            <RadioButton
+                android:id="@attr/ko"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="30 Days"/>
+            <RadioButton
+                android:textSize="12sp"
+                android:id="@attr/kp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="60 Days"/>
+            <RadioButton
+                android:textSize="12sp"
+                android:id="@attr/kr"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="90 Days"/>
+            <RadioButton
+                android:textSize="12sp"
+                android:id="@attr/kq"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="6 Months"/>
+            <RadioButton
+                android:textSize="12sp"
+                android:id="@attr/kn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1 Year"/>
+        </RadioGroup>
+        <Button
+            android:textSize="12sp"
+            android:id="@attr/g4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Copy to clipboard"
+            android:textAllCaps="false"
+            app:hy="25dp"/>
+    </LinearLayout>
+</RelativeLayout>

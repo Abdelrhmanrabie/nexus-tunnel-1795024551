@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:padding="3mm"
+    style="@plurals/a3y">
+    <TextView
+        android:text="@string/g5"
+        style="@plurals/a44"/>
+    <LinearLayout
+        android:paddingTop="12sp"
+        android:paddingBottom="12sp"
+        style="@plurals/a3y">
+        <View
+            android:background="#ff8080ff"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"/>
+    </LinearLayout>
+    <ScrollView
+        android:id="@attr/po"
+        android:scrollbars="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <TextView
+            android:id="@attr/pp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </ScrollView>
+    <LinearLayout style="@plurals/a3y">
+        <Button
+            android:id="@attr/pm"
+            android:visibility="gone"
+            android:text="@string/g3"
+            style="@plurals/a44"/>
+        <Button
+            android:id="@attr/pn"
+            android:visibility="gone"
+            android:text="@string/g4"
+            style="@plurals/a44"/>
+    </LinearLayout>
+</LinearLayout>

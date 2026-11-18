@@ -1,0 +1,46 @@
+package com.trilead.ssh2.packets;
+
+import defpackage.ak;
+
+/* JADX INFO: compiled from: https://t.me/SaltSoupGarage */
+/* JADX INFO: loaded from: classes.dex */
+public class PacketSessionPtyRequest {
+    public int character_height;
+    public int character_width;
+    byte[] payload;
+    public int pixel_height;
+    public int pixel_width;
+    public int recipientChannelID;
+    public String term;
+    public byte[] terminal_modes;
+    public boolean wantReply;
+
+    public PacketSessionPtyRequest(int i, boolean z, String str, int i2, int i3, int i4, int i5, byte[] bArr) {
+        this.recipientChannelID = i;
+        this.wantReply = z;
+        this.term = str;
+        this.character_width = i2;
+        this.character_height = i3;
+        this.pixel_width = i4;
+        this.pixel_height = i5;
+        this.terminal_modes = bArr;
+    }
+
+    public byte[] getPayload() {
+        if (this.payload == null) {
+            TypesWriter typesWriterI = ak.i(98);
+            typesWriterI.writeUINT32(this.recipientChannelID);
+            typesWriterI.writeString("pty-req");
+            typesWriterI.writeBoolean(this.wantReply);
+            typesWriterI.writeString(this.term);
+            typesWriterI.writeUINT32(this.character_width);
+            typesWriterI.writeUINT32(this.character_height);
+            typesWriterI.writeUINT32(this.pixel_width);
+            typesWriterI.writeUINT32(this.pixel_height);
+            byte[] bArr = this.terminal_modes;
+            typesWriterI.writeString(bArr, 0, bArr.length);
+            this.payload = typesWriterI.getBytes();
+        }
+        return this.payload;
+    }
+}

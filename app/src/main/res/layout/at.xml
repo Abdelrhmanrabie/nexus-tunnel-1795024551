@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <TextView
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/ra"
+        android:id="@attr/a0x"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/app"/>
+    <TextView
+        android:textSize="14sp"
+        android:textColor="@color/ra"
+        android:id="@attr/a0v"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Thank you for using Hamo Tunnel Plus! We appreciate your support and hope you enjoy using Hamo Tunnel Plus.  By watching this ad you will get a guaranteed 2 hours of VPN Connection time."/>
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@attr/cg"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp">
+        <ProgressBar
+            android:id="@attr/um"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="?android:attr/progressBarStyle"/>
+        <TextView
+            android:textSize="14sp"
+            android:id="@attr/ct"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ads is loading do not close this window to avoid loading ads again."/>
+    </LinearLayout>
+    <Button
+        android:id="@attr/a3c"
+        android:background="@drawable/co"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Watch Ads"
+        android:textAllCaps="false"/>
+    <Button
+        android:textStyle="normal"
+        android:textColor="@color/ra"
+        android:id="@attr/j4"
+        android:background="#00ffffff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="Click here to earn more time!"
+        android:textAllCaps="false"/>
+</LinearLayout>

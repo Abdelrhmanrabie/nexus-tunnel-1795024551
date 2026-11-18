@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:state_checked="true"
+        android:id="@attr/ez"
+        android:drawable="@drawable/cd"/>
+    <item
+        android:id="@attr/a2k"
+        android:drawable="@drawable/cf"/>
+    <transition
+        android:drawable="@drawable/cg"
+        android:toId="@attr/ez"
+        android:fromId="@attr/a2k"/>
+    <transition
+        android:drawable="@drawable/ce"
+        android:toId="@attr/a2k"
+        android:fromId="@attr/ez"/>
+</animated-selector>

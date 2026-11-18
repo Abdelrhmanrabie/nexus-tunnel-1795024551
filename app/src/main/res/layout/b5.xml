@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:padding="3mm"
+    style="@plurals/a3y">
+    <TextView
+        android:text="@string/dd"
+        style="@plurals/a46"/>
+    <EditText
+        android:id="@attr/y5"
+        style="@plurals/a3w"/>
+</LinearLayout>

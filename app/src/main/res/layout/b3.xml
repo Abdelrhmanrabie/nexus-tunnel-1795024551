@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" style="@plurals/a3y">
+    <TextView
+        android:id="@attr/i8"
+        style="@plurals/a44"/>
+    <EditText
+        android:id="@attr/ib"
+        style="@plurals/a3w"/>
+</LinearLayout>

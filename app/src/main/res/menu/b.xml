@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:icon="@drawable/el"
+        android:id="@attr/c4"
+        android:title="@string/hl"
+        app:a05="0x2"/>
+    <item
+        android:icon="@drawable/j8"
+        android:id="@attr/zu"
+        android:title="@string/t_"
+        app:a05="0x2"/>
+</menu>

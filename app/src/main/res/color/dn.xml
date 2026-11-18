@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:state_enabled="true"
+        android:color="?style/g_"/>
+    <item
+        android:color="?style/gh"
+        android:alpha="@dimen/io"/>
+</selector>

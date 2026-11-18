@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:id="@attr/q1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="8dp"
+    android:baselineAligned="false"
+    android:layoutDirection="ltr"
+    app:r1="0"
+    app:r5="0"
+    app:ra="0">
+    <include
+        android:id="@attr/q8"
+        layout="@layout/d3"/>
+    <include layout="@layout/cw"/>
+    <include
+        android:id="@attr/qa"
+        layout="@layout/d3"/>
+</LinearLayout>

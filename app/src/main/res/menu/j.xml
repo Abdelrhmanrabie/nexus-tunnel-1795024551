@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:id="@attr/m1">
+        <item
+            android:icon="@drawable/kd"
+            android:id="@attr/zt"
+            android:title="@string/t9"/>
+        <item
+            android:icon="@drawable/jn"
+            android:id="@attr/xx"
+            android:title="@string/t6"/>
+        <item
+            android:icon="@drawable/jd"
+            android:id="@attr/vv"
+            android:title="@string/nt"/>
+    </group>
+    <group android:id="@attr/m0">
+        <item
+            android:icon="@drawable/iy"
+            android:id="@attr/up"
+            android:title="@string/ss"/>
+        <item
+            android:icon="@drawable/hr"
+            android:id="@attr/pq"
+            android:title="@string/s1"/>
+        <item
+            android:icon="@drawable/eh"
+            android:id="@attr/a7"
+            android:title="@string/rj"/>
+        <item
+            android:enabled="false"
+            android:id="@attr/u_"
+            android:title=""/>
+    </group>
+</menu>

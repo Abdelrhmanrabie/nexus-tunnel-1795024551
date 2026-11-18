@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:fitsSystemWindows="true"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="vertical"
+        android:padding="@dimen/e1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <include layout="@layout/ci"/>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/e1">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ol"/>
+            <EditText
+                android:id="@attr/jp"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/df"
+                android:inputType="text"/>
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/e1">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/oj"/>
+            <Spinner
+                android:entries="@array/k"
+                android:id="@attr/yn"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/df"/>
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/e1">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/oi"/>
+            <EditText
+                android:id="@attr/k9"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/df"
+                android:text="none"
+                android:inputType="text"/>
+        </LinearLayout>
+        <include layout="@layout/cm"/>
+        <include layout="@layout/ck"/>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/e1"
+            android:layout_marginBottom="@dimen/e1"/>
+    </LinearLayout>
+</ScrollView>

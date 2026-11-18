@@ -1,0 +1,54 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="org.hamotunnelplus.xyz"
+4    android:versionCode="15"
+5    android:versionName="1.5" >
+6
+7    <uses-sdk
+7-->/data/user/0/com.ai.assistance.operit/files/workspace/tunnel app/app/src/main/AndroidManifest.xml:7:5-73
+8        android:minSdkVersion="23"
+8-->/data/user/0/com.ai.assistance.operit/files/workspace/tunnel app/app/src/main/AndroidManifest.xml:7:15-41
+9        android:targetSdkVersion="35" />
+9-->/data/user/0/com.ai.assistance.operit/files/workspace/tunnel app/app/src/main/AndroidManifest.xml:7:42-71
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/data/user/0/com.ai.assistance.operit/files/workspace/tunnel app/app/src/main/AndroidManifest.xml:8:5-66
+11-->/data/user/0/com.ai.assistance.operit/files/workspace/tunnel app/app/src/main/AndroidManifest.xml:8:22-64
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->/data/user/0/com.ai.assistance.operit/files/workspace/tunnel app/app/src/main/AndroidManifest.xml:9:5-78
+12-->/data/user/0/com.ai.assistance.operit/files/workspace/tunnel app/app/src/main/AndroidManifest.xml:9:22-76
+13
+14    <application
+14-->/data/user/0/com.ai.assistance.operit/files/workspace/tunnel app/app/src/main/AndroidManifest.xml:11:5-25:19
+15        android:name="renz.javacodez.vpn.activities.HamoTunnelPlusApplication"
+15-->/data/user/0/com.ai.assistance.operit/files/workspace/tunnel app/app/src/main/AndroidManifest.xml:12:9-79
+16        android:allowBackup="true"
+16-->/data/user/0/com.ai.assistance.operit/files/workspace/tunnel app/app/src/main/AndroidManifest.xml:13:9-35
+17        android:debuggable="true"
+18        android:extractNativeLibs="false"
+19        android:icon="@android:drawable/ic_dialog_info"
+19-->/data/user/0/com.ai.assistance.operit/files/workspace/tunnel app/app/src/main/AndroidManifest.xml:14:9-56
+20        android:label="@string/app_name"
+20-->/data/user/0/com.ai.assistance.operit/files/workspace/tunnel app/app/src/main/AndroidManifest.xml:15:9-41
+21        android:theme="@style/AppTheme" >
+21-->/data/user/0/com.ai.assistance.operit/files/workspace/tunnel app/app/src/main/AndroidManifest.xml:16:9-40
+22        <activity
+22-->/data/user/0/com.ai.assistance.operit/files/workspace/tunnel app/app/src/main/AndroidManifest.xml:17:9-24:20
+23            android:name="renz.javacodez.vpn.activities.HamoTunnelPlusSplash"
+23-->/data/user/0/com.ai.assistance.operit/files/workspace/tunnel app/app/src/main/AndroidManifest.xml:18:13-78
+24            android:exported="true" >
+24-->/data/user/0/com.ai.assistance.operit/files/workspace/tunnel app/app/src/main/AndroidManifest.xml:19:13-36
+25            <intent-filter>
+25-->/data/user/0/com.ai.assistance.operit/files/workspace/tunnel app/app/src/main/AndroidManifest.xml:20:13-23:29
+26                <action android:name="android.intent.action.MAIN" />
+26-->/data/user/0/com.ai.assistance.operit/files/workspace/tunnel app/app/src/main/AndroidManifest.xml:21:17-68
+26-->/data/user/0/com.ai.assistance.operit/files/workspace/tunnel app/app/src/main/AndroidManifest.xml:21:25-66
+27
+28                <category android:name="android.intent.category.LAUNCHER" />
+28-->/data/user/0/com.ai.assistance.operit/files/workspace/tunnel app/app/src/main/AndroidManifest.xml:22:17-76
+28-->/data/user/0/com.ai.assistance.operit/files/workspace/tunnel app/app/src/main/AndroidManifest.xml:22:27-74
+29            </intent-filter>
+30        </activity>
+31    </application>
+32
+33</manifest>

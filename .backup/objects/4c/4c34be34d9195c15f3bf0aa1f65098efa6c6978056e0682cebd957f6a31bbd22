@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Clean attrs.xml - unique attr names only -->
+    <attr name="attr_a" value="a">false</attr>
+    <attr name="attr_b" value="b">false</attr>
+    <attr name="attr_c" value="c">false</attr>
+    <attr name="attr_d" value="d">false</attr>
+    <attr name="attr_e" value="e">false</attr>
+    <attr name="attr_f" value="f">false</attr>
+    <attr name="attr_g" value="g">false</attr>
+    <attr name="attr_h" value="h">false</attr>
+    <attr name="attr_i" value="i">false</attr>
+    <attr name="attr_j" value="j">false</attr>
+    <attr name="attr_k" value="k">false</attr>
+    <attr name="attr_l" value="l">false</attr>
+    <attr name="attr_m" value="m">false</attr>
+    <attr name="attr_n" value="n">false</attr>
+    <attr name="attr_o" value="o">false</attr>
+    <attr name="attr_p" value="p">false</attr>
+    <attr name="attr_q" value="q">false</attr>
+    <attr name="attr_r" value="r">false</attr>
+    <attr name="attr_s" value="s">false</attr>
+    <attr name="attr_t" value="t">false</attr>
+    <attr name="attr_u" value="u">false</attr>
+    <attr name="attr_v" value="v">false</attr>
+    <attr name="attr_w" value="w">false</attr>
+    <attr name="attr_x" value="x">false</attr>
+    <attr name="attr_y" value="y">false</attr>
+    <attr name="attr_z" value="z">false</attr>
