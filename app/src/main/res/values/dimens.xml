@@ -184,8 +184,6 @@
     <dimen name="dq">0.2</dimen>
     <dimen name="dr">0.12</dimen>
     <dimen name="dt">0.38</dimen>
-    <dimen name="du">0.7</dimen>
-    <dimen name="dv">0.54</dimen>
     <dimen name="dw">20dp</dimen>
     <dimen name="dx">800dp</dimen>
     <dimen name="dy">120dp</dimen>
@@ -295,11 +293,6 @@
     <dimen name="gr">60dp</dimen>
     <dimen name="gs">8dp</dimen>
     <dimen name="gt">4dp</dimen>
-    <dimen name="gu">@dimen/ha</dimen>
-    <dimen name="gv">@dimen/hb</dimen>
-    <dimen name="gw">@dimen/hc</dimen>
-    <dimen name="gx">@dimen/hd</dimen>
-    <dimen name="gy">@dimen/hd</dimen>
     <dimen name="gz">2dp</dimen>
     <dimen name="h0">1</dimen>
     <dimen name="h1">8dp</dimen>
