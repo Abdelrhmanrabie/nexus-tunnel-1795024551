@@ -1,5 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <dimen name="gx">0.12</dimen>
+    <dimen name="gv">0.54</dimen>
+    <dimen name="gw">0.87</dimen>
+    <dimen name="gu">0.38</dimen>
+    <dimen name="gy">0.24</dimen>
+    <dimen name="io">0.38</dimen>
+    <dimen name="du">0.54</dimen>
+    <dimen name="ds">0.12</dimen>
+    <dimen name="ir">0.38</dimen>
+    <dimen name="dp">0.12</dimen>
+    <dimen name="mj">0.08</dimen>
+    <dimen name="mh">0.12</dimen>
+    <dimen name="mi">0.16</dimen>
+    <dimen name="mg">0.24</dimen>
+    <dimen name="mo">0.08</dimen>
+    <dimen name="mm">0.12</dimen>
+    <dimen name="mn">0.16</dimen>
+    <dimen name="ml">0.24</dimen>
     <dimen name="a">16dp</dimen>
     <dimen name="b">72dp</dimen>
     <dimen name="c">56dp</dimen>

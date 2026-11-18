@@ -1,6 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <style name="AppTheme" parent="@android:style/Theme.DeviceDefault.Light.NoActionBar"/>
+    <style name="g0" parent=""><item name="android:color">@android:color/black</item></style>
+    <style name="g4" parent=""><item name="android:color">@android:color/white</item></style>
+    <style name="g6" parent=""><item name="android:color">@android:color/darker_gray</item></style>
+    <style name="g7" parent=""><item name="android:color">@android:color/white</item></style>
+    <style name="g9" parent=""><item name="android:color">@android:color/black</item></style>
+    <style name="g_" parent=""><item name="android:color">@android:color/black</item></style>
+    <style name="gc" parent=""><item name="android:color">@android:color/holo_blue_light</item></style>
+    <style name="gd" parent=""><item name="android:color">@android:color/holo_green_light</item></style>
+    <style name="gf" parent=""><item name="android:color">@android:color/holo_orange_light</item></style>
+    <style name="gg" parent=""><item name="android:color">@android:color/holo_red_light</item></style>
+    <style name="gh" parent=""><item name="android:color">@android:color/darker_gray</item></style>
+    <style name="gj" parent=""><item name="android:color">@android:color/white</item></style>
+    <style name="gn" parent=""><item name="android:color">@android:color/holo_blue_bright</item></style>
+    <style name="go" parent=""><item name="android:color">@android:color/holo_green_dark</item></style>
+    <style name="gp" parent=""><item name="android:color">@android:color/holo_orange_dark</item></style>
+    <style name="gu" parent=""><item name="android:color">@android:color/holo_red_dark</item></style>
+    <style name="gv" parent=""><item name="android:color">@android:color/black</item></style>
+    <style name="gw" parent=""><item name="android:color">@android:color/white</item></style>
+    <style name="gx" parent=""><item name="android:color">@android:color/holo_purple</item></style>
+    <style name="gz" parent=""><item name="android:color">@android:color/black</item></style>
+    <style name="kd" parent=""><item name="android:color">@android:color/black</item></style>
     <style name="a" parent="">
     </style>
     <style name="b" parent="">
