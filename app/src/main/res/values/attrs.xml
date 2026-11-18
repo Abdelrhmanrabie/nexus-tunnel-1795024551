@@ -7,6 +7,7 @@
     <attr name="a0q" format="integer"/>
     <attr name="a0r" format="integer"/>
     <attr name="a1" format="integer"/>
+    <attr name="a1h" format="boolean"/>
     <attr name="a1q" format="integer"/>
     <attr name="a1t" format="integer"/>
     <attr name="a1v" format="integer"/>
