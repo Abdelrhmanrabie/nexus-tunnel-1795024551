@@ -1,0 +1,30 @@
+# Gradle
+.gradle/
+build/
+*/build/
+!src/main/**/build/
+
+# Local configuration
+local.properties
+gradle.properties
+
+# IDE
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# OS
+.DS_Store
+Thumbs.db
+
+# APKs (we build these in CI)
+*.apk
+*.aab
+
+# Keystores
+*.jks
+*.keystore
+
+# Cache
+*.cache
