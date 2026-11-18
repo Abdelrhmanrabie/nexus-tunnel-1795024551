@@ -181,10 +181,8 @@
     <dimen name="dm">50dp</dimen>
     <dimen name="dn">3dp</dimen>
     <dimen name="do_res_0x7f0700a2">12dp</dimen>
-    <dimen name="dp">0.26</dimen>
     <dimen name="dq">0.2</dimen>
     <dimen name="dr">0.12</dimen>
-    <dimen name="ds">0.5</dimen>
     <dimen name="dt">0.38</dimen>
     <dimen name="du">0.7</dimen>
     <dimen name="dv">0.54</dimen>
